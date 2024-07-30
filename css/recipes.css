@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #168aad;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 40px;
+}
+
+.reciepes h1 {
+    font-size: 30px;
+
+    margin: 20px 0;
+}
+
+.reciepes img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.reciepes p {
+    margin: 20px 0;
+    max-width: 600px;
+
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.reciepes h2 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.reciepes ul li,
+.reciepes ol li {
+    margin: 12px 0;
+    font-size: 18px;
+}
